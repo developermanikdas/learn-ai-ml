@@ -67,3 +67,24 @@
 #     except ValueError:
 #         print("Invalid input! Please enter a number or 'quit'.")  
             
+            
+           
+#8 Simple calculator
+
+# def calculator(a,b,operation):
+#     match operation:
+#         case "+":
+#             return a+b
+#         case "-":
+#             return a-b
+#         case "*":
+#             return a*b
+#         case "/":
+#             return a/b
+
+# a = int(input("Enter a number: "))            
+# b = int(input("Enter another number: "))            
+# c = input("Enter operand: ")            
+
+# print(calculator(a,b,c))    
+
