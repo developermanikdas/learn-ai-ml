@@ -23,26 +23,43 @@
 ###2 Practice
 
 
-class Store:
-    product_count = 0
+# class Store:
+#     product_count = 0
     
     
-    def __init__(self, product, price):
-        self.product = product
-        self.price = price
-        Store.product_count+=1
+#     def __init__(self, product, price):
+#         self.product = product
+#         self.price = price
+#         Store.product_count+=1
     
-    @classmethod
-    def print_count(cls):
-        print(f"There are {cls.product_count} Products")
+#     @classmethod
+#     def print_count(cls):
+#         print(f"There are {cls.product_count} Products")
         
-    @staticmethod    
-    def calc_discount(price, disount):
-        return (price - (price*(disount/100)))
+#     @staticmethod    
+#     def calc_discount(price, disount):
+#         return (price - (price*(disount/100)))
 
-product1 = Store("Laptop", 40_000)
-product2 = Store("Keyboard", 6_000)
-product3 = Store("Mouse", 1_000)
+# product1 = Store("Laptop", 40_000)
+# product2 = Store("Keyboard", 6_000)
+# product3 = Store("Mouse", 1_000)
 
-print(Store.calc_discount(1000,10))
-Store.print_count()
+# print(Store.calc_discount(1000,10))
+# Store.print_count()
+
+
+
+###3 Practice
+
+# class Student:
+    
+#     def __init__(self, name, roll, fee):
+#         self.name = name
+#         self._roll = roll #just protected by convention
+#         self.__fee = fee 
+        
+#     def set_fee(self):
+#         return self.__fee 
+        
+# s1  = Student("Manik", 2, 1000)        
+# print(s1.name, s1._roll, s1._Student__fee)
