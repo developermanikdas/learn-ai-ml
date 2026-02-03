@@ -21,3 +21,24 @@
 
 
 
+#2 Class & Objects
+
+class Book:
+    def __init__(self, title, author, review):
+        self.title = title
+        self.author = author
+        self.review = review
+        
+    def add_review(self, new_review):
+        self.review.append(new_review)
+    
+    def count_review(self):
+        print(len(self.review))
+        
+    def show_review(self):
+        print(self.review)    
+        
+book1 = Book("The Secret", "Rhonda Byrne", ["It Was superb", "Page Turner", "Really Secret inside"])            
+
+
+book1.show_review()
