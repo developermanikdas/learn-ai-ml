@@ -89,40 +89,44 @@
 
 #4 Function Overriding 
 
-class Shape:
-    def area(self):
-        print("I'll be overridden") 
+# class Shape:
+#     def area(self):
+#         print("I'll be overridden") 
 
-class Circle(Shape):
+# class Circle(Shape):
     
-    def __init__(self, name , radious):
-        self.name  = name
-        self.radious = radious
+#     def __init__(self, name , radious):
+#         self.name  = name
+#         self.radious = radious
         
-    def area(self):
-        return (22/7 * self.radious**2)     
+#     def area(self):
+#         return (22/7 * self.radious**2)     
 
-class Rectangle(Shape):
-    def __init__(self, name, length, width):
-        self.name = name
-        self.length = length
-        self.width = width
+# class Rectangle(Shape):
+#     def __init__(self, name, length, width):
+#         self.name = name
+#         self.length = length
+#         self.width = width
     
-    def area(self):    
-        return (self.length * self.width)
+#     def area(self):    
+#         return (self.length * self.width)
                 
-class Triangle(Shape):
-    def __init__(self, name,  base, height):
-        self.name = name
-        self.base = base
-        self.height = height
+# class Triangle(Shape):
+#     def __init__(self, name,  base, height):
+#         self.name = name
+#         self.base = base
+#         self.height = height
         
-    def area(self):
-        return (1/2 * self.base * self.height)
+#     def area(self):
+#         return (1/2 * self.base * self.height)
     
-shapes = [Circle("Circle", 1), Rectangle("Rectangle", 10, 5), Triangle("Triangle",10, 5)]
+# shapes = [Circle("Circle", 1), Rectangle("Rectangle", 10, 5), Triangle("Triangle",10, 5)]
 
-for s in shapes:
-    print(s.area())        
+# for s in shapes:
+#     print(s.area())        
         
     
+
+
+
+        
