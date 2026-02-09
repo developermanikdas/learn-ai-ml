@@ -41,3 +41,33 @@
 
 # p1.operation()
 # c1.operation()
+
+#Q6 Abstraction
+
+# class Employee:
+#     def calculate_salary(self):
+#         pass
+
+# class Intern(Employee):    
+#     def calculate_salary(self):
+#         print("I have 20K salary!")
+
+# class FullTimeEmployee(Employee):    
+#     def calculate_salary(self):
+#         print("I have 40K salary!")
+        
+# class ContractEmployee(Employee):
+#       def calculate_salary(self):
+#         print("I have 50K salary!")      
+        
+        
+# i1 = Intern()        
+# f1 = FullTimeEmployee()
+# c1 = ContractEmployee()
+
+# i1.calculate_salary()
+# f1.calculate_salary()
+# c1.calculate_salary()
+
+
+#7 Constructor overloading with default parameters 
