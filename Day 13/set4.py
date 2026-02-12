@@ -69,3 +69,6 @@
 # bear.eat_plants()
 # bear.hunt()
 # bear.variety_diet()
+
+
+
